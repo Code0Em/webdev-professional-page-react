@@ -7,4 +7,5 @@ function Home() {
     )
 }
 
+// Exports Home component.
 export default Home

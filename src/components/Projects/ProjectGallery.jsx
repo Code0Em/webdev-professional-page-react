@@ -7,4 +7,5 @@ function ProjectGallery() {
     )
 }
 
+// Exports Project Gallery component.
 export default ProjectGallery
