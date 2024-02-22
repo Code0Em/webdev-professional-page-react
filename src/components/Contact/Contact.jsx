@@ -7,4 +7,5 @@ function Contact() {
     )
 }
 
+// Exports Contact component.
 export default Contact

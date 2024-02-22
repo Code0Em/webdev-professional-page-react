@@ -1,5 +1,13 @@
+//===========
+//  Imports 
+//===========
+// Imports Navlink from the React router package.
 import { NavLink } from 'react-router-dom';
 
+//=============
+//  Functions
+//=============
+// Creates a header component, including a responsive navbar. 
 function Header() {
 
     return (
@@ -31,4 +39,5 @@ function Header() {
     )
 }
 
+// Exports Header component.
 export default Header
