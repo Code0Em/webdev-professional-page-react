@@ -18,7 +18,7 @@ import './App.css'
 //=============
 // Sets up routing structure (i.e. different routes and what components should be rendered where).
 // *CREDIT: Coder’s understanding of React Router developed thanks to Net Ninja (2023) React Router in Depth (https://www.youtube.com/watch?v=XN7E5tKM-no).
-function App() {
+const App = () => {
 
   return (
     <Router>
@@ -32,5 +32,8 @@ function App() {
   )
 }
 
+//===========
+//  Exports 
+//===========
 // Exports App component.
 export default App
