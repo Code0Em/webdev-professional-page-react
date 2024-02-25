@@ -1,11 +1,23 @@
-function Home() {
+//===========
+//  Imports 
+//===========
+// Imports components.
+import SkillsGallery from '../Skills/SkillsGallery';
 
+//=============
+//  Functions
+//=============
+// Renders SkillsGallery.
+const Home = () => {
     return (
         <>
-            <h1>I'm Home</h1>
+           <SkillsGallery/>
         </>
     )
 }
 
+//===========
+//  Exports 
+//===========
 // Exports Home component.
 export default Home
