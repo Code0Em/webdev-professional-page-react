@@ -23,7 +23,6 @@ const ProjectGallery = () => {
                             title={project.title}
                             aim={project.aim}
                             tech={project.tech}
-                            techAlt={project.techAlt}
                             repo={project.repoLink}
                             deploy={project.deployedLink}
                             image={project.screenshot}

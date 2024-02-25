@@ -4,13 +4,27 @@
 }
 
 /* ===========
+  Headings
+=========== */
+h1 {
+  color: #5E807F;
+  font-size: 2rem;
+  font-weight: 400;
+  transition: all .3s ease-in-out;
+}
+
+/* ===========
   Navbar
 =========== */
 nav {
   border-bottom: 3px solid #5E807F;
   background-color: white;
-  font-size: 1.5rem;
-  font-weight:lighter
+  font-size: 2rem;
+  font-weight:lighter;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #5E807F;
 }
 
 .nav-link.active {
@@ -36,8 +50,9 @@ nav {
 /* ===========
   Cards
 =========== */
+
 .card {
-  padding: 2em;
+  padding: 2rem;
   background-color: white;
 }
 
@@ -46,5 +61,19 @@ nav {
 }
 
 .card-title {
+  color: #5E807F;
+  font-size: 1.5rem;
+}
+
+/* =============================
+  Specific to Skills component
+============================= */
+.skills-img {
+  width: 40px;
+  height: 40px;
+}
+
+.skills-p {
+  font-size: 1.5rem;
   color: #5E807F;
 }

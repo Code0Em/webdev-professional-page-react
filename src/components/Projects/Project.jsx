@@ -19,8 +19,6 @@ const Project = ({ title, aim, tech, repo, deploy, image }) => {
         <h1 className="card-title">{title}</h1>
         <p className="card-text"><i> {aim}</i></p>
         <div>
-          {/* Iterates over tech array (passed as prop). Inside map function, each techBadge object is accessed directly to get the url and alt properties for rendering the img tag. (“tech?.map” allows us to access properties of techBadge objects that may be null or undefined without causing error).
-          Code finessed thanks to Xpert Learning Assistant’s (2024) answer to “what’s wrong with this [previous version of code pasted]”. */}
           {/* <!--Alt tags included on badges as these do convey meaning (i.e. the technologies used in the project).--> */}
           {tech?.map((techBadge, index) => (
             <img key={index} alt={techBadge.alt} src={techBadge.url} className="ms-3 mb-3" />
