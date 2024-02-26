@@ -1,12 +1,14 @@
 //=============
 //  Functions
 //=============
-// Creates comms skill p elements, with props (data) from parent component (Home). 
+// Creates =communication skill p elements, with props (data) from parent component (Home).
 const SkillsComms = ({ comms }) => {
     return (
         <>
             {comms?.map((commsVal, index) => (
-                <p key={index} className="skills-p col-lg-2 text-center">{commsVal}</p>
+                <p className="styled-p col-lg-2 text-center"
+                    key={index}>
+                    {commsVal}</p>
             ))}
         </>
     )

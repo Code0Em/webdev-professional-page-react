@@ -51,8 +51,8 @@
                 "alt": "NodeJS"
             },
             {
-                "url": "https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white",
-                "alt": "NPM"
+                "url": "https://img.shields.io/badge/Inquirer-%23CB3837.svg?style=for-the-badge&logo=inquirer&logoColor=white",
+                "alt": "Inquirer"
             }
         ],
         "repoLink": "https://github.com/Code0Em/make-me-a-read-me",

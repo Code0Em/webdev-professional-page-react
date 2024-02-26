@@ -13,16 +13,17 @@ import skillData from '../../utils/skills.json';
 //=============
 // Renders skills components, passing props (data) to child components.
 const SkillsGallery = () => {
-
     return (
         <>
-            <section className="container-fluid text-center mt-4 p-5">
+            <section className="container-fluid text-center mt-3 skills-container">
                 <article className="row justify-content-center g-0">
                     <article className="col-lg-12 m-3">
-                        <h1>Skills</h1>
+                        <h1 className="display-6">Skills</h1>
                     </article>
                     <article className="col-lg-12 mb-3">
-                        <img src="./images/laptop.svg" alt="Laptop icon to indicate Technical Skills" className="skills-img"></img>
+                        <img className="icon-img"
+                            src="./images/laptop.svg"
+                            alt="Laptop icon to indicate Technical Skills" />
                     </article>
                     <article className="col-lg-8">
                         {skillData.map((skill) => (
@@ -33,8 +34,9 @@ const SkillsGallery = () => {
                         ))}
                     </article>
                     <article className="col-lg-12 m-3">
-                        <img src="./images/lightbulb.svg" alt="Lightbulb icon to indicate Dynamic Skills"
-                            className="skills-img" />
+                        <img className="icon-img"
+                            src="./images/lightbulb.svg"
+                            alt="Lightbulb icon to indicate Dynamic Skills" />
                     </article>
                     {skillData.map((skill) => (
                         <SkillsDynamic
@@ -43,8 +45,9 @@ const SkillsGallery = () => {
                         />
                     ))}
                     <article className="col-lg-12 m-3">
-                        <img src="./images/chat.svg" alt="Speech bubble icon to indicate Communications Skills"
-                            className="skills-img" />
+                        <img className="icon-img"
+                            src="./images/chat.svg"
+                            alt="Speech bubble icon to indicate Communications Skills" />
                     </article>
                     {skillData.map((skill) => (
                         <SkillsComms
@@ -56,10 +59,10 @@ const SkillsGallery = () => {
             </section>
         </>
     )
-}
+};
 
 //===========
 //  Exports 
 //===========
-// Exports Home component.
+// Exports component.
 export default SkillsGallery;

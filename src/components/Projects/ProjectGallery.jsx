@@ -11,10 +11,9 @@ import projectData from '../../utils/projects.json';
 //=============
 // Renders project cards, passing props (data) to child component (Project).
 const ProjectGallery = () => {
-
     return (
         <>
-            <section className="container-fluid text-center mt-4 p-5">
+            <section className="container-fluid text-center mt-5 pt-5">
                 <article className="row justify-content-center g-0">
                     {projectData.map((project) => (
                         <Project
@@ -32,10 +31,10 @@ const ProjectGallery = () => {
             </section>
         </>
     )
-}
+};
 
 //===========
 //  Exports 
 //===========
 // Exports Project Gallery component.
-export default ProjectGallery
+export default ProjectGallery;
