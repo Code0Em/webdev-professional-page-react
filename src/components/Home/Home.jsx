@@ -2,22 +2,24 @@
 //  Imports 
 //===========
 // Imports components.
+import Profile from '../Profile/Profile';
 import SkillsGallery from '../Skills/SkillsGallery';
 
 //=============
 //  Functions
 //=============
-// Renders SkillsGallery.
+// Renders Profile and SkillsGallery.
 const Home = () => {
     return (
         <>
-           <SkillsGallery/>
+            <Profile />
+            <SkillsGallery />
         </>
     )
-}
+};
 
 //===========
 //  Exports 
 //===========
 // Exports Home component.
-export default Home
+export default Home;

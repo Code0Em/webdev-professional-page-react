@@ -1,8 +1,6 @@
 //===========
 //  Imports 
 //===========
-// Imports useState hook from React.   **@@ DELETE LATER IF NOT USED**
-import { useState } from 'react'
 // Imports below from the React router package.
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // Imports components.
@@ -10,6 +8,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import ProjectGallery from './components/Projects/ProjectGallery';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 // Imports styling.
 import './App.css'
 
@@ -28,6 +27,7 @@ const App = () => {
         <Route path="projects" element={<ProjectGallery />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
+      <Footer />
   </Router>
   )
 }
@@ -36,4 +36,4 @@ const App = () => {
 //  Exports 
 //===========
 // Exports App component.
-export default App
+export default App;

@@ -4,17 +4,98 @@
 }
 
 /* ===========
-  Headings
+Headings
 =========== */
 h1 {
-  color: #5E807F;
+  color: #435453;
   font-size: 2rem;
-  font-weight: 400;
-  transition: all .3s ease-in-out;
+  font-weight:lighter;
+}
+
+/* ==============
+  Paragraphs
+============== */
+
+.styled-p {
+  font-size: 1.2rem;
+  color: #435453;
+}
+
+.footer-p {
+  font-size: 1.2rem;
+  font-weight:lighter;
+  color: #5E807F;
 }
 
 /* ===========
-  Navbar
+  Buttons
+=========== */
+.btn {
+  background-color: #9DC5BB;
+  font-size: 1.2rem;
+  width: fit-content;
+}
+
+.btn:hover {
+  background-color: #17B890;
+}
+
+:not(.btn-check)+.btn:active {
+  box-shadow: 0 5px #666;
+  background-color: #17B890;
+}
+
+/* ===========
+Images
+=========== */
+.icon-img {
+  width: 40px;
+  height: 40px;
+}
+
+.profile-img {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.project-img {
+  height: 300px;
+}
+
+.footer-icon-img {
+  width: 20px;
+  height: 20px;
+}
+
+/* ===========
+  Containers
+=========== */
+
+.container-fluid {
+  overflow: hidden;
+}
+
+.skills-container {
+  border-top: 3px solid #5E807F;
+  background-color: #C2CDCD;
+}
+
+/* ===========
+  Cards
+=========== */
+
+.card {
+  padding: 2rem;
+  background-color: white;
+}
+
+.card-title {
+  color: #5E807F;
+  font-size: 1.5rem;
+}
+
+/* ===========
+Navbar
 =========== */
 nav {
   border-bottom: 3px solid #5E807F;
@@ -32,48 +113,9 @@ nav {
 }
 
 /* ===========
-  Buttons
+Footer
 =========== */
-.btn {
-  background-color: #9DC5BB;
-}
-
-.btn:hover {
-  background-color: #17B890;
-}
-
-:not(.btn-check)+.btn:active {
-  box-shadow: 0 5px #666;
-  background-color: #17B890;
-}
-
-/* ===========
-  Cards
-=========== */
-
-.card {
-  padding: 2rem;
+footer {
   background-color: white;
-}
-
-.card-img {
-  height: 300px;
-}
-
-.card-title {
-  color: #5E807F;
-  font-size: 1.5rem;
-}
-
-/* =============================
-  Specific to Skills component
-============================= */
-.skills-img {
-  width: 40px;
-  height: 40px;
-}
-
-.skills-p {
-  font-size: 1.5rem;
-  color: #5E807F;
+  border-top: 3px solid #5E807F;
 }

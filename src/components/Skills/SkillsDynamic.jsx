@@ -6,7 +6,9 @@ const SkillsDynamic = ({ dynamic }) => {
     return (
         <>
             {dynamic?.map((dynamicVal, index) => (
-                <p key={index} className="skills-p col-lg-2 text-center">{dynamicVal}</p>
+                <p className="styled-p col-lg-2 text-center"
+                    key={index}>
+                    {dynamicVal}</p>
             ))}
         </>
     )
