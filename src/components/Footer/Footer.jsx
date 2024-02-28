@@ -16,7 +16,7 @@ const Footer = () => {
             <footer className="container-fluid text-center pt-3 mb-3">
                 <section className="row justify-content-center">
                     <article className="col-lg-2">
-                        <p className="footer-p mb-2 mt-2">&copy;2023 by Code Em</p>
+                        <p className="footer-p mb-2 mt-2">&copy;2024 by Code Em</p>
                     </article>
                     <button className="btn"
                         role="link"
