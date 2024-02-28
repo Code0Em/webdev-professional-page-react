@@ -7,5 +7,5 @@
 //===========
 //  Exports 
 //===========
-// Exports component.
+// Exports function.
 export default openInNewTab;

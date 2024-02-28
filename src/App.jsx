@@ -9,6 +9,7 @@ import Home from './components/Home/Home';
 import ProjectGallery from './components/Projects/ProjectGallery';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 // Imports styling.
 import './App.css'
 
@@ -21,14 +22,15 @@ const App = () => {
 
   return (
     <Router>
-    <Header />
-    <Routes>
+      <ScrollToTop />
+      <Header />
+      <Routes>
         <Route index element={<Home />} />
         <Route path="projects" element={<ProjectGallery />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
       <Footer />
-  </Router>
+    </Router>
   )
 }
 
