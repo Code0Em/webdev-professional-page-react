@@ -11,8 +11,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import * as bootstrap from 'bootstrap';
 // Imports App component.
 import App from './App.jsx'
-// Imports styling.
-import './index.css'
 
 //=============
 //  Functions
