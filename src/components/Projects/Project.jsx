@@ -24,7 +24,7 @@ const Project = ({ title, aim, tech, repo, deploy, image }) => {
             <img className="ms-3 mb-3" key={index} alt={techBadge.alt} src={techBadge.url} />
           ))}
         </article>
-        {/* Ternary checks is deploy (from parent > project.json) is equal to "Not Applicable" and if NOT renders button.
+        {/* Ternary checks if deploy (from parent > project.json) is equal to "Not Applicable" and if NOT renders button.
         On both buttons, onClick event listeners open project/repos in new window. */}
         <article className="row justify-content-center">
           {(deploy !== "Not Applicable")

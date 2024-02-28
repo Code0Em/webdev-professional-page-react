@@ -34,12 +34,14 @@ const Profile = () => {
                             <article className="col-sm-8">
                                 {/* Buttons */}
                                 <button className="btn ms-3 px-3"
+                                    role="link"
                                     onClick={() => openInNewTab(Links.email)}>
                                     <img className="icon-img"
                                         src="./images/envelope-at.svg"
                                         alt="Envelope icon with an at symbol inside" />
                                 </button>
                                 <button className="btn ms-3 px-3"
+                                    role="link"
                                     onClick={() => openInNewTab(Links.gitHub)}>
                                     <img className="icon-img"
                                         src="./images/github.svg"
