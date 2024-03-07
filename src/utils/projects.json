@@ -1,6 +1,52 @@
 [
     {
         "id": 1,
+        "title": "Bark vs. Meow",
+        "aim": "Collaboratively design, build, and deploy a client-side single-page application using Netlify.",
+        "tech": [
+            {
+                "url": "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+                "alt": "JavaScript"
+            },
+            {
+                "url": "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
+                "alt": "React"
+            },
+            {
+                "url": "https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white",
+                "alt": "Vite"
+            },
+            {
+                "url": "https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white",
+                "alt": "React Router"
+            },
+            {
+                "url": "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
+                "alt": "NodeJS"
+            },
+            {
+                "url": "https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white",
+                "alt": "Testing Library"
+            },
+            {
+                "url": "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",
+                "alt": "HTML"
+            },
+            {
+                "url": "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
+                "alt": "CSS3"
+            },
+            {
+                "url": "https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white",
+                "alt": "Bootstrap"
+            }
+        ],
+        "repoLink": "https://github.com/Code0Em/animal-meme-generator",
+        "deployedLink": "https://animal-meme-generator.netlify.app",
+        "screenshot": "./images/bark-vs-meow.png"
+    },
+    {
+        "id": 2,
         "title": "Make Me a Team Page",
         "aim": "Build a command-line application that dynamically generates a HTML webpage (based upon user input) and passes all given tests.",
         "tech": [
@@ -28,17 +74,17 @@
                 "url": "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
                 "alt": "CSS3"
             },
-        {
-            "url": "https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white",
-            "alt": "Bootstrap"
-        }
-    ],
+            {
+                "url": "https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white",
+                "alt": "Bootstrap"
+            }
+        ],
         "repoLink": "https://github.com/Code0Em/make-me-a-team-page",
         "deployedLink": "Not Applicable",
         "screenshot": "./images/make-me-a-team-page.jpg"
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "Make Me a ReadMe",
         "aim": "Build a command-line application that dynamically generates a professional README.md file (based upon user input).",
         "tech": [
@@ -60,7 +106,7 @@
         "screenshot": "./images/make-me-a-readme.png"
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "LinguaSonnet",
         "aim": "Collaboratively build a web application, which makes use of Bootstrap and (at least) two server-side APIs.",
         "tech": [
@@ -76,17 +122,17 @@
                 "url": "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
                 "alt": "CSS3"
             },
-        {
-            "url": "https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white",
-            "alt": "Bootstrap"
-        }
+            {
+                "url": "https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white",
+                "alt": "Bootstrap"
+            }
         ],
         "repoLink": "https://github.com/Code0Em/lingua-sonnet",
         "deployedLink": "https://code0em.github.io/lingua-sonnet/",
         "screenshot": "./images/linguasonnet.png"
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "City Weather Search",
         "aim": "Build a web application, which presents users with the current and future weather conditions of the city that they have searched for.",
         "tech": [
@@ -102,17 +148,17 @@
                 "url": "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
                 "alt": "CSS3"
             },
-        {
-            "url": "https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white",
-            "alt": "Bootstrap"
-        }
+            {
+                "url": "https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white",
+                "alt": "Bootstrap"
+            }
         ],
         "repoLink": "https://github.com/Code0Em/city-weather-search",
         "deployedLink": "https://code0em.github.io/city-weather-search/",
         "screenshot": "./images/city-weather-search.png"
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Daily Task Planner",
         "aim": "Build a simple calendar application, which allows the user to save tasks to each hour of the day.",
         "tech": [
@@ -128,17 +174,17 @@
                 "url": "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
                 "alt": "CSS3"
             },
-        {
-            "url": "https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white",
-            "alt": "Bootstrap"
-        }
+            {
+                "url": "https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white",
+                "alt": "Bootstrap"
+            }
         ],
         "repoLink": "https://github.com/Code0Em/daily-task-planner",
         "deployedLink": "https://code0em.github.io/daily-task-planner/",
         "screenshot": "./images/daily-task-planner.png"
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "Multiple Choice Quiz Game",
         "aim": "Build a timed quiz with multiple-choice questions.",
         "tech": [
@@ -160,7 +206,7 @@
         "screenshot": "./images/mcq-quiz-game.png"
     },
     {
-        "id": 7,
+        "id": 8,
         "title": "Password Creator",
         "aim": "Create an application that can be used to generate a random password (based on user criteria).",
         "tech": [
@@ -182,7 +228,7 @@
         "screenshot": "./images/password-creator.png"
     },
     {
-        "id": 8,
+        "id": 9,
         "title": "Profit and Loss Analysis",
         "aim": "Create code to analyse the profit/loss records of a company over a given period.",
         "tech": [
@@ -196,7 +242,7 @@
         "screenshot": "./images/profit-loss-analysis.png"
     },
     {
-        "id": 9,
+        "id": 10,
         "title": "Web Developer’s Professional Page (Bootstrap)",
         "aim": "An iteration of the Web Developer’s Professional Page (2023), utilising Bootstrap.",
         "tech": [
@@ -208,17 +254,17 @@
                 "url": "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
                 "alt": "CSS3"
             },
-        {
-            "url": "https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white",
-            "alt": "Bootstrap"
-        }
+            {
+                "url": "https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white",
+                "alt": "Bootstrap"
+            }
         ],
         "repoLink": "https://github.com/Code0Em/webdev-professional-page-bs",
         "deployedLink": "https://code0em.github.io/webdev-professional-page-bs/",
         "screenshot": "./images/webdev-professional-page-bootstrap.png"
     },
     {
-        "id": 10,
+        "id": 11,
         "title": "Web Developer’s Professional Page",
         "aim": "Build a portfolio to showcase the developer’s work.",
         "tech": [
